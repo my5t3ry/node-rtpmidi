@@ -11,14 +11,11 @@ var mdns = null,
   avahi_pub;
 
 try {
-  mdns = require('mdns');
+  mdns = require('mdns-js');
 } catch (e) {
   console.log('mDNS discovery is not available.');
 }
 
-try {
-  avahi_pub = require('avahi_pub');
-} catch(e) {}
 
 
 

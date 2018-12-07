@@ -9,12 +9,14 @@
     "url": "http://github.com/jdachtera/node-rtpmidi.git"
   },
   "dependencies": {
-    "midi-common": "*"
+    "dgram": "^1.0.1",
+    "mdns-js": "^1.0.1",
+    "midi-common": "*",
+    "process": "^0.11.10",
+    "socket.io": "^2.2.0",
+    "uws": "10.148.1"
   },
-  "optionalDependencies": {
-    "mdns": "2.3.3",
-    "avahi_pub": "TheThingSystem/node_avahi_pub"
-  },
+  "optionalDependencies": {},
   "keywords": [
     "midi",
     "rtpmidi",
