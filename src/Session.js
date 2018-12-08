@@ -2,7 +2,6 @@
 
 var util            = require("util"),
     EventEmitter    = require("events").EventEmitter,
-    dgram           = require('browser-shim-node-dgram'),
     ControlMessage  = require("./ControlMessage"),
     MidiMessage     = require("./MidiMessage"),
     MdnsService     = require("./mdns"),

@@ -9,7 +9,7 @@
     "url": "http://github.com/jdachtera/node-rtpmidi.git"
   },
   "dependencies": {
-    "browser-shim-node-dgram": "^1.0.2",
+    "chrome-dgram": "^3.0.1",
     "dgram": "^1.0.1",
     "dgram-browserify": "^0.0.13",
     "mdns": "^2.4.0",

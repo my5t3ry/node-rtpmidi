@@ -1,7 +1,6 @@
 "use strict";
 require("process");
-const dgram = require('dgram');
-
+const dgram = require("chrome-dgram");
 // Backported Buffer functions for node 0.4.x
 
 
