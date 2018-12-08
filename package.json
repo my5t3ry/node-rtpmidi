@@ -9,7 +9,8 @@
     "url": "http://github.com/jdachtera/node-rtpmidi.git"
   },
   "dependencies": {
-    "dgram": "^1.0.1",
+    "dgram-browserify": "^0.0.13",
+    "mdns": "^2.4.0",
     "mdns-js": "^1.0.1",
     "midi-common": "*",
     "process": "^0.11.10",

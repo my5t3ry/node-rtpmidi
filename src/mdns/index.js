@@ -2,6 +2,6 @@
 
 var service;
 
-    service = require('./service-mdns');
+    service = require('./service-webos');
 
 module.exports = service;
