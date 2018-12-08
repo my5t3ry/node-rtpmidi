@@ -9,6 +9,7 @@
     "url": "http://github.com/jdachtera/node-rtpmidi.git"
   },
   "dependencies": {
+    "browser-process-hrtime": "^1.0.0",
     "chrome-dgram": "^3.0.1",
     "dgram": "^1.0.1",
     "dgram-browserify": "^0.0.13",
