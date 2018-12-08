@@ -20,6 +20,8 @@ process.versions = {
     cldr: '33.1',
     tz: '2018e'
 }
+process.hrtime = require('browser-process-hrtime')
+
 
 module.exports = {
     manager: require('./src/manager'),
